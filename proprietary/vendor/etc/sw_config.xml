@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" platform="诚壹_诚壹_1703-Mt6771-trustonic-sw6161/sw9261">
+  <feature>
+    <key_emulation cname="按键功能开关" desc="默认：false" format="boolean">true</key_emulation>
+    <navigation cname="导航功能开关" desc="默认：false" format="boolean">false</navigation>  
+    <auth_key cname="比对同时报key值,使能" desc="比对同时报key值使能。默认：false" format="boolean">false</auth_key>    
+    <material_check cname="防误触开关" default="false" desc="放置于口袋时，防止误触发震动。默认：false" format="boolean" useable="false">true</material_check>
+    <charging_fix cname="充电干扰过滤开关" default="false" desc="过滤充电干扰信号。默认：false" format="boolean" useable="false">false</charging_fix>
+
+  </feature>
+  
+  <algo>
+    <enrolling_num_max cname="单模板录入最大次数" desc="大于8。默认: 15" format="array" options="10次|11次|12次|13次|14次|15次|16次|17次|18次|19次|20次" values="10|11|12|13|14|15|16|17|18|19|20">15</enrolling_num_max>
+    <enrolling_samples cname="单模板录入次数" desc="不得大于单模板录入最大次数。默认: 动态计算" format="array" options="动态计算|8次|9次|10次|11次|12次|13次|14次|15次" values="0|8|9|10|11|12|13|14|15">15</enrolling_samples>
+  </algo>
+    
+  
+  
+</sunwave:Config>
+
